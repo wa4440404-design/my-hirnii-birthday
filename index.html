@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f9dce9">
+<title>For My Hirniiiii | Happy Birthday</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--pink:#e77ba7;--dark:#783b5b}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:linear-gradient(145deg,#fff0f5,#f4eaff,#ffe9f1);color:var(--dark);overflow-x:hidden}
+h1,h2{font-family:'Playfair Display',serif}
+section{padding:72px 20px;position:relative;text-align:center}
+p{font-size:16px;line-height:1.9}
+.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;flex-direction:column;padding:25px;background:radial-gradient(circle at 20% 20%,#ffffffaa,transparent 35%),radial-gradient(circle at 80% 80%,#f6bcd9aa,transparent 40%)}
+.small-text,.tag{letter-spacing:3px;text-transform:uppercase;font-size:11px;color:#a85d80;margin-bottom:18px}
+.hero h1{font-size:clamp(39px,10vw,65px);line-height:1.15;color:#b84e7f;margin-bottom:18px}
+.hero p{max-width:330px;color:#8c5770}
+.main-heart{font-size:65px;animation:beat 1.5s infinite;margin-bottom:20px}
+@keyframes beat{50%{transform:scale(1.17)}}
+.btn{border:0;border-radius:40px;padding:15px 28px;color:white;background:linear-gradient(120deg,#df659b,#b77ce0);font-size:15px;font-weight:700;box-shadow:0 8px 25px #d77aa855;cursor:pointer;margin-top:25px}
+.hidden{display:none!important}
+.section-title{font-size:clamp(29px,7vw,42px);margin-bottom:25px;color:#a94c78}
+.card{width:100%;max-width:650px;margin:25px auto;padding:30px 23px;border:1px solid white;border-radius:25px;background:#ffffffb8;box-shadow:0 12px 35px #b56b9020;backdrop-filter:blur(10px)}
+.card p+p{margin-top:17px}
+.intro{max-width:540px;margin:auto}
+.photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;max-width:650px;margin:32px auto}
+.photo-frame{background:white;padding:9px 9px 16px;border-radius:15px;box-shadow:0 10px 25px #874b7025;transform:rotate(-2deg)}
+.photo-frame:nth-child(2){transform:rotate(2deg)}
+.photo-frame img{display:block;width:100%;height:260px;object-fit:contain;background:#f8edf3;border-radius:9px}
+.photo-frame p{font-family:'Playfair Display',serif;margin-top:10px;font-size:14px}
+.story{text-align:left}
+.story p{margin-bottom:17px}
+.highlight{color:#d34f8b;font-weight:700}
+.big-love{font-family:'Playfair Display',serif;font-size:clamp(27px,7vw,42px);color:#cf4386;line-height:1.4;margin:28px 0}
+.cake{font-size:75px;animation:cake 2s infinite ease-in-out}
+@keyframes cake{50%{transform:translateY(-10px)}}
+.final-card{background:linear-gradient(145deg,#fff,#fff0f7);border:1px solid #f6c5da}
+.signature{margin-top:30px;font-family:'Playfair Display',serif;font-size:25px;font-style:italic;color:#b64b7e}
+footer{padding:40px 15px 65px;text-align:center;font-size:13px;color:#a56887}
+.music-control{position:fixed;bottom:15px;right:13px;z-index:20;display:none;align-items:center;gap:8px;background:#ffffffed;padding:10px 13px;border-radius:30px;box-shadow:0 4px 18px #0002}
+.music-control input{width:85px;accent-color:#d85d96}
+.music-control button{border:0;background:none;color:#a94c78;font-size:18px;cursor:pointer}
+.float-heart{position:fixed;bottom:-40px;z-index:15;pointer-events:none;animation:float 8s linear forwards}
+@keyframes float{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+@media(max-width:480px){.photos{gap:9px}.photo-frame{padding:6px 6px 12px}.photo-frame img{height:190px}.card{padding:25px 18px}}
+</style>
+</head>
+<body>
+<section class="hero" id="opening">
+  <div class="small-text">A little surprise for someone special</div>
+  <div class="main-heart">💗</div>
+  <h1>Happy Birthday<br>My Hirniiiii</h1>
+  <p>Aaj ka din sirf tumhara hai... aur mere paas tumhare liye kuch bahut special hai.</p>
+  <button class="btn" onclick="openSurprise()">Open Your Surprise 💌</button>
+  <p style="margin-top:30px;font-size:12px">Made with love, just for you.</p>
+</section>
+
+<main id="mainContent" class="hidden">
+<section>
+  <div class="tag">Today is your special day</div><div class="cake">🎂</div>
+  <h1 class="section-title">Happy Birthday Bubuu!</h1>
+  <div class="card intro">
+    <p>Happy Birthday meri pyaari Bebuu! Aaj ka din mere liye bhi bahut special hai, kyunki aaj meri life ke sabse special insaan ka birthday hai.</p>
+    <p>I wish your life stays full of happiness, beautiful moments, endless smiles and all the love you truly deserve.</p>
+    <p class="highlight">Aaj bas tum khush rehna, meri Hirniiiii!</p>
+  </div>
+</section>
+
+<section>
+  <div class="tag">My favourite person</div><h2 class="section-title">Just Look At You! ❤️</h2>
+  <p class="intro">Kuch pictures sirf pictures nahi hoti, unhe dekhkar chehre par smile aa jaati hai.</p>
+  <div class="photos">
+    <div class="photo-frame"><img src="hirnii-1.jpg" alt="Muskan - photo 1"><p>My beautiful girl</p></div>
+    <div class="photo-frame"><img src="hirnii-2.jpg" alt="Muskan - photo 2"><p>My favourite smile</p></div>
+  </div>
+  <p class="highlight">Dono pictures meri favourite hain, just like you.</p>
+</section>
+
+<section>
+  <div class="tag">Where everything started</div><h2 class="section-title">Our Little Story</h2>
+  <div class="card story">
+    <p>Yaad hai aapko woh din, jab ek game ki wajah se hum dono mile the?</p>
+    <p>Main ek random se room mein enter hua tha, wahan aap baithe theee...</p>
+    <p>Pata nahi kya hua, aapke paas baith gaya. Lekin uss waqt haath toh aise hata liya tha mere baaju se, jaise main koi anjaan hun.</p>
+    <p>Haan, uss waqt toh anjaan hi tha... lekin ab kya hun, ye toh aap mujhse bhi behtar jaante ho.</p>
+    <p class="highlight">And who knew that one random room would become such a beautiful part of our lives?</p>
+  </div>
+</section>
+
+<section>
+  <div class="tag">From my heart to yours</div><h2 class="section-title">Ek Baat Kehni Thi...</h2>
+  <div class="card">
+    <p>Meri pyaari Hirniiiii, main shayad har baar apne dil ki baat sahi se nahi keh pata, lekin tum mere liye jitni special ho, woh shabdon mein batana thoda mushkil hai.</p>
+    <p>Tum meri khushi ho, meri smile ki wajah ho aur meri life ka ek bahut hi pyaara hissa ho. Main chahta hun tum hamesha khush raho, tumhare saare sapne poore hon aur tumhari smile kabhi kam na ho.</p>
+    <p>Kabhi-kabhi bas mann karta hai ki kaash main abhi tumhare paas hota, tumhe hug karta aur tumhara birthday tumhare saath celebrate karta.</p>
+    <p> I may not be beside you today, but I hope this little surprise makes you feel how much love I am sending your way.</p>
+    <p>You are so precious to me. I don't need a perfect day, I just wish for a lifetime of beautiful moments with you.</p>
+    <p class="big-love">I LOVE YOU SO MUCHH<br>MERI HIRNIIII ❤️</p>
+    <p>Aaj bhi, kal bhi aur har aane wale din mein.</p>
+  </div>
+</section>
+
+<section>
+  <div class="cake">🎂</div><h2 class="section-title">One Last Wish, My Bubuu</h2>
+  <div class="card final-card">
+    <p>Meri Bebuu, life mein chahe kitni bhi problems aayein, tum hamesha strong rehna aur muskurate rehna.</p>
+    <p>Tumhe duniya ki saari khushiyan milein, tum jo bhi chaho woh sab tumhe haasil ho. Aur tum kabhi ye mat bhoolna ki tum kisi ke liye kitni special ho.</p>
+    <p>Distance chahe jitna bhi ho, mera pyaar tum tak hamesha pahunchta rahega.</p>
+    <p>Happy Birthday once again, my love. I wish I could be there to celebrate this day with you. Until that day comes, please keep this little surprise close to your heart.</p>
+    <div class="signature">Forever yours,<br>Your Baby Panda ❤️</div>
+  </div>
+  <div class="big-love">Stay Happy, My Hirniiiii!</div>
+</section>
+<footer>Made with lots of love<br>Just for my favourite person ❤️</footer>
+</main>
+
+<div class="music-control" id="musicControl">
+  <button id="musicButton" onclick="toggleMusic()" aria-label="Play or pause music">♫</button>
+  <input type="range" id="volume" min="0" max="1" value="0.85" step="0.05" aria-label="Music volume">
+</div>
+<audio id="music" loop preload="auto"><source src="music.mp3" type="audio/mpeg"></audio>
+
+<script>
+const music=document.getElementById('music');
+const volume=document.getElementById('volume');
+const musicButton=document.getElementById('musicButton');
+music.volume=0.85;
+
+function openSurprise(){
+  document.getElementById('opening').style.display='none';
+  document.getElementById('mainContent').classList.remove('hidden');
+  document.getElementById('musicControl').style.display='flex';
+  window.scrollTo(0,0);
+  music.play().then(()=>musicButton.textContent='♫').catch(()=>musicButton.textContent='▶');
+  for(let i=0;i<18;i++)setTimeout(createHeart,i*130);
+}
+function toggleMusic(){
+  if(music.paused){
+    music.play().then(()=>musicButton.textContent='♫').catch(()=>musicButton.textContent='▶');
+  }else{music.pause();musicButton.textContent='▶';}
+}
+volume.addEventListener('input',()=>music.volume=Number(volume.value));
+function createHeart(){
+  const heart=document.createElement('div');
+  heart.className='float-heart';
+  heart.textContent=['❤️','💗','💕','💖','♡'][Math.floor(Math.random()*5)];
+  heart.style.left=Math.random()*100+'vw';
+  heart.style.fontSize=(16+Math.random()*18)+'px';
+  document.body.appendChild(heart);
+  setTimeout(()=>heart.remove(),8000);
+}
+setInterval(createHeart,1200);
+</script>
+</body>
+</html>
